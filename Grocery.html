@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Website</title>
+    <link rel="stylesheet" href="Grocery.css">
+    <link rel="icon" type="image/png" href="./images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+   
+</head>
+<body>
+    <div class="container min-h-screen bg-[url('images/outside.jpg')] bg-center bg-cover px-28 py-5 rounded-l-lg relative ">
+        <nav class="flex items-center bg-transparent   font-medium inline-block pb-11 mr-4 hover:bg-transparent hover:bg-yellow-400 hover:text-white pb-11 duration-300 hover:border border-transparent  py-11 rounded-3xl px-8 top-11">
+            <img src="./images/logo.png" class="w-40 mb-11  cursor-pointer">
+            <ul class="flex-1 text-center">
+                <li class="list-none inline-block px-5  mb-11 cursor-pointer"><a href="#" class="no-underline text-white">Home</a></li>
+                <li class="list-none inline-block px-5 cursor-pointer"><a href="#"  class="no-underline text-white">Features</a></li>
+                <li class="list-none inline-block px-5 cursor-pointer"><a href="#"  class="no-underline text-white">About</a></li>
+                <li class="list-none inline-block px-5 cursor-pointer"><a href="#"  class="no-underline text-white">Contact</a></li>
+            </ul>
+            
+            <img src="./images/cart.png" class="w-8  mb-11 cursor-pointer">
+        </nav>
+    
+        <div class="text-white mt-48 max-w-xl relative z-10 mb-11">
+            <h1 class="text-6xl font-semibold leading-normal left-20 "> Groceries <br>delivery in <br><span class="font-light"> 10 mins</span></h1>
+            <p>Grocify offers a large number of products such as vegetables, dairy products, meat, and much more.</p>
+            <div class="mt-10">
+                <a href="#" class="bg-yellow-300 rounded-3xl py-3 px-8  text-lg font-medium inline-block mr-4 hover:bg-transparent hover:border-yellow-300 hover:text-white duration-300 hover:border border-transparent">Order Now</a>
+                <a href="#" class="inline-block text-lg  bg-green-400  hover:bg-transparent border-spacing-3 py-2 px-6 rounded-3xl hover:text-white duration-200 hover:border border-green-300 ">Download <span class="inline-block text-lg rotate-90 bg-transparent hover:bg-green-400  hover:text-white duration-300 hover:border ">&#10148;</span></a>
+            </div>  
+        </div>
+        <img src="./images/grocery-image.png" class="w-full xl:w-1/2 xl:absolute bottom-0 right-0">
+    </div>
+
+    <section id="category">
+        <div class="category-heading">
+            <h2>Category</h2>
+            <span>All</span>
+        </div>
+        <div class="category-container">
+            <a href="#" class="category-box">
+                <img src="./images/fish.png">
+                <span>Fish & Meat</span>
+            </a>
+            <a href="#" class="category-box">
+                <img src="./images/vegetables.jpeg">
+                <span>Vegetables</span>
+            </a>
+            <a href="#" class="category-box">
+                <img src="./images/fruit.webp">
+                <span>Fruits</span>
+            </a>
+           
+            <a href="#" class="category-box">
+                <img src="./images/babyproducts.jpg">
+                <span>Baby Products</span>
+            </a>
+            <a href="#" class="category-box">
+                <img src="./images/snacks.png">
+                <span>Snacks</span>
+            </a>
+            <a href="#" class="category-box">
+                <img src="./images/aata.webp">
+                <span>Wheat & Rice</span>
+            </a>
+            <a href="#" class="category-box">
+                <img src="./images/medicines.jpg">
+                <span>Medicines</span>
+            </a>
+            <a href="#" class="category-box">
+                <img src="./images/household.webp">
+                <span>Households</span>
+            </a>
+        </div>
+    </section>
+    <section id="popular-product">
+        <div class="product-heading">
+            <h2>Popular product</h2>
+            <span>All</span>
+        </div>
+        <div class="product-container">
+            <div class="product-box">
+                <img src="./images/Guava.png">
+                <strong>Guava</strong>
+                <span class="quantity">1KG</span>
+                <span class="price">₹80</span>
+                <a href="#" class="cart-btn  hover:bg-green-400  hover:text-white 300">
+                <i class="fa fa-shopping-cart" ></i> Add to cart</a>
+                <a href="#" class="like-btn">
+                    <i class="fa fa-heart-o mg" style="color:red;"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="./images/pepsi.jpg">
+                <strong>Pepsi</strong>
+                <span class="quantity">1Ltr</span>
+                <span class="price">₹50</span>
+                <a href="#" class="cart-btn  hover:bg-green-400  hover:text-white 300">
+                <i class="fa fa-shopping-cart" ></i> Add to cart</a>
+                <a href="#" class="like-btn">
+                    <i class="fa fa-heart-o mg" style="color:red;"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="./images/maggi.webp">
+                <strong>Maggi</strong>
+                <span class="quantity">4Pkt</span>
+                <span class="price">₹40</span>
+                <a href="#" class="cart-btn  hover:bg-green-400  hover:text-white 300">
+                <i class="fa fa-shopping-cart" ></i> Add to cart</a>
+                <a href="#" class="like-btn">
+                    <i class="fa fa-heart-o mg" style="color:red;"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="./images/lays_.jpg">
+                <strong>Lay's Chips</strong>
+                <span class="quantity">1Pkt</span>
+                <span class="price">₹20</span>
+                <a href="#" class="cart-btn  hover:bg-green-400  hover:text-white 300">
+                <i class="fa fa-shopping-cart" ></i> Add to cart</a>
+                <a href="#" class="like-btn">
+                    <i class="fa fa-heart-o mg" style="color:red;"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="./images/5starjpg.jpg">
+                <strong>5 star</strong>
+                <span class="quantity">20pc</span>
+                <span class="price">₹182</span>
+                <a href="#" class="cart-btn  hover:bg-green-400  hover:text-white 300">
+                <i class="fa fa-shopping-cart" ></i> Add to cart</a>
+                <a href="#" class="like-btn">
+                    <i class="fa fa-heart-o mg" style="color:red;"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="./images/powderbaby.jpg">
+                <strong>Jhonson's Baby Powder</strong>
+                <span class="quantity">2Btl</span>
+                <span class="price">₹200</span>
+                <a href="#" class="cart-btn  hover:bg-green-400  hover:text-white 300">
+                <i class="fa fa-shopping-cart" ></i> Add to cart</a>
+                <a href="#" class="like-btn">
+                    <i class="fa fa-heart-o mg" style="color:red;"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="./images/meat.jpg">
+                <strong>Chicken Meat</strong>
+                <span class="quantity">1KG</span>
+                <span class="price">₹354</span>
+                <a href="#" class="cart-btn  hover:bg-green-400  hover:text-white 300">
+                <i class="fa fa-shopping-cart" ></i> Add to cart</a>
+                <a href="#" class="like-btn">
+                    <i class="fa fa-heart-o mg" style="color:red;"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="./images/Oil.jpg">
+                <strong>Fortune Refined Oil</strong>
+                <span class="quantity">1Ltr</span>
+                <span class="price">₹150</span>
+                <a href="#" class="cart-btn  hover:bg-green-400  hover:text-white 300">
+                <i class="fa fa-shopping-cart" ></i> Add to cart</a>
+                <a href="#" class="like-btn">
+                    <i class="fa fa-heart-o mg" style="color:red;"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="./images/mango.webp">
+                <strong>Mango</strong>
+                <span class="quantity">1KG</span>
+                <span class="price">₹138</span>
+                <a href="#" class="cart-btn  hover:bg-green-400  hover:text-white 300">
+                <i class="fa fa-shopping-cart" ></i> Add to cart</a>
+                <a href="#" class="like-btn">
+                    <i class="fa fa-heart-o mg" style="color:red;"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="./images/Harpic.webp">
+                <strong>Harpic Toilet & Bathroom Cleaner</strong>
+                <span class="quantity">2x1Ltr</span>
+                <span class="price">₹300</span>
+                <a href="#" class="cart-btn  hover:bg-green-400  hover:text-white 300">
+                <i class="fa fa-shopping-cart" ></i> Add to cart</a>
+                <a href="#" class="like-btn">
+                    <i class="fa fa-heart-o mg" style="color:red;"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="./images/onions.webp">
+                <strong>Onion</strong>
+                <span class="quantity">1KG</span>
+                <span class="price">₹55</span>
+                <a href="#" class="cart-btn  hover:bg-green-400  hover:text-white 300">
+                <i class="fa fa-shopping-cart" ></i> Add to cart</a>
+                <a href="#" class="like-btn">
+                    <i class="fa fa-heart-o mg" style="color:red;"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="./images/crocin.jpg">
+                <strong>Crocin Pain relief</strong>
+                <span class="quantity">15x1</span>
+                <span class="price">₹30</span>
+                <a href="#" class="cart-btn  hover:bg-green-400  hover:text-white 300">
+                <i class="fa fa-shopping-cart" ></i> Add to cart</a>
+                <a href="#" class="like-btn">
+                    <i class="fa fa-heart-o mg" style="color:red;"></i>
+                </a>
+            </div>
+
+
+        </div>
+    </section>
+    <!--Popular Bundle-->
+    <section id="popular-bundle-pack">
+        <div class="product-heading">
+            <h2>Popular Bundle Pack</h2>
+        </div>
+        <div class="product-container">
+            <!--box---------->
+            <div class="product-box">
+                <img alt="pack" src="images/fruit-basket.jpg">
+                <strong>Big Pack</strong>
+                <span class="quantity">Lemone, Tamato, Patato,+4</span>
+                <span class="price">9$</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fa fa-shopping-cart"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="fa fa-heart-o mg"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="images/britannia.jpg">
+                <strong>Large Pack</strong>
+                <span class="quantity">Jim Jam, Rusk, Nutri,+2</span>
+                <span class="price">5$</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fa fa-shopping-cart"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="fa fa-heart-o mg"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="images/kurkurepacks.jpg">
+                <strong>Kurkure Pack</strong>
+                <span class="quantity">All four flavours</span>
+                <span class="price">3$</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fa fa-shopping-cart"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="fa fa-heart-o mg"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="pack" src="images/choclates.jpg">
+                <strong>Nestle Chocolates</strong>
+                <span class="quantity">Kit kat, Munch, Milky Bar,+1</span>
+                <span class="price">9$</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fa fa-shopping-cart"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="fa fa-heart-o mg"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="images/Tea.jpg">
+                <strong>Tea Pack</strong>
+                <span class="quantity">Tetly, Taj, Agni,+2</span>
+                <span class="price">5$</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fa fa-shopping-cart"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="fa fa-heart-o mg"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="images/Allcola.webp">
+                <strong>Cold drinks</strong>
+                <span class="quantity">Sprite, Cola, Fanta, +3</span>
+                <span class="price">3$</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fa fa-shopping-cart"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="fa fa-heart-o mg"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img alt="apple" src="images/Bfruits.jpg">
+                <strong>Big Pack</strong>
+                <span class="quantity">Pinapple, Kivi, Grapes, +4</span>
+                <span class="price">3$</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fa fa-shopping-cart"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="fa fa-heart-o mg"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img alt="apple" src="images/haldiram.jpg">
+                <strong>Namkeens</strong>
+                <span class="quantity">All in one, Bhujia, +6</span >
+                <span class="price">3$</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fa fa-shopping-cart"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="fa fa-heart-o mg"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <!--logo-container------>
+            <div class="footer-logo">
+                <a href="#">Made By : Anupam Anand</a>
+                <!--social----->
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/anupam-anand05/"><i id ="a"class="fa fa-linkedin-square"  style="font-size:36px"></i></a>
+                    <a href="https://github.com/Anupam2023a"><i id="g"class="fa fa-github" style="font-size:36px"></i></a>
+                    <a href="#"><i id ="a" class="fa fa-facebook-f" style="font-size: 30px;"></i></a>
+                    <a href="#"><i id="y" class="fa fa-youtube-play" style="font-size: 36px"></i></a>
+                </div>
+                
+            </div>
+            <nav class="what" >
+                <img src="./images/logo.png" class="w-40 mb-11 mr-15 left-18 cursor-pointer">
+                </nav>
+            <!--links------------------------->
+        
+        <!--links------------------------->
+        
+        <!--links-------------------------->
+       
+        </div>
+    </footer>
+</body>
+</html>
