@@ -11,3 +11,6 @@
 ✔Intuitive "Add to Cart" and "Like" buttons for user interaction.
 ✔Engaging hero section with a captivating image and clear call-to-action buttons.
 ✔The use of vibrant colors and high-quality images creates an inviting atmosphere.
+
+
+https://github.com/Anupam2023a/Grocery-Website/assets/135353051/1386f528-5f33-44fd-bb15-929344ca7fe5
