@@ -10,7 +10,8 @@
 ✔Showcasing bundled products with attractive images and clear details.
 ✔Intuitive "Add to Cart" and "Like" buttons for user interaction.
 ✔Engaging hero section with a captivating image and clear call-to-action buttons.
-✔The use of vibrant colors and high-quality images creates an inviting atmosphere.
+✔The use of vibrant colors and high-quality images creates an inviting.
 
 
-https://github.com/Anupam2023a/Grocery-Website/assets/135353051/1386f528-5f33-44fd-bb15-929344ca7fe5
+https://github.com/Anupam2023a/Grocery-Website/assets/135353051/8d1e6a74-b9d4-4e05-96b4-72d3c7a74443
+
